@@ -32,3 +32,4 @@ This tool can support **public safety planning, resource allocation, and policy 
 - CSV files (`full_data.csv`, `future_years.csv`)  
 
 ---
+## Installation
