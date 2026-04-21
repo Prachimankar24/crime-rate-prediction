@@ -1,4 +1,9 @@
-# 🔮 Crime Rate Forecasting Web Application
+## 🚀 Live Demo
+
+- Backend API: [Swagger Docs](http://127.0.0.1:8000/docs)
+- Frontend UI: [Open App](http://127.0.0.1:5500/frontend/index.html)
+
+---# 🔮 Crime Rate Forecasting Web Application
 
 ![Home Page](screenshots/home_page.png)
 
@@ -33,3 +38,23 @@ This tool can support **public safety planning, resource allocation, and policy 
 
 ---
 ## Installation
+## ⚙️ Installation & Setup
+
+1. Clone the repository:
+``bash
+git clone https://github.com/Prachimankar24/crime-rate-prediction.git
+cd crime-rate-prediction
+
+2.Create and activate virtual environment:
+cd backend
+python -m venv venv
+venv\Scripts\activate
+
+3.Install dependencies:
+  pip install -r ../requirements.txt
+
+4.Run the backend server:
+  uvicorn app:app --reload
+
+5.Run the frontend:
+  Open frontend/index.html using Live Server (VS Code extension)  
